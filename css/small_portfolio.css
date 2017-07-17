@@ -1,0 +1,95 @@
+/* Left and Right columns */
+.section1 {
+  text-align: center;
+}
+
+.color{
+  display: inline-block;
+  margin: auto;
+  color: #2d3c49;
+  text-align: center;
+}
+
+.section2 {
+  float: bottom;
+}
+
+
+/* Header Sectiono*/
+
+.header{
+  font-family: 'Josefin Slab', sans-serif;
+  position: static;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 1em;
+  text-align: center;
+  border-bottom: solid 8px #2d3c49;
+/*  display: block;*/
+}
+
+.header_logo {
+  display: inline-flex;
+  float: left;
+  margin: auto;
+  top: 10px;
+  left: 2em;
+}
+
+.header_text {
+  text-align: right;
+  display:block;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.header_lowercase {
+  clear: both;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+/*main body*/
+.main{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.main_image{
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Featured section */
+.featured{
+  text-align: center;
+  padding: inherit;
+  text-decoration-style: double;
+  text-decoration: overline #2d3c49;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.first_project {
+  order: 1;
+}
+
+.second_project {
+  order: 2;
+}
+
+.third_project {
+  order: 3;
+}
+
+.box {
+  margin: auto;
+}
